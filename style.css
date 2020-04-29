@@ -100,11 +100,11 @@ p
 }
 .sous-details
 {
-    padding-top: 70px;
+    padding-top: 30px;
 }
 .date-exp
 {
-    padding-top: 45px;
+    padding-top: 65px;
 }
 .details-exp
 {
@@ -167,6 +167,8 @@ h5
 }
 .fa-xs
 {
-    padding-right: 10px;
+    position: absolute;
+    left: 42%;
     color: #e57373;
+    
 }
