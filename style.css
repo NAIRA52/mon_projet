@@ -1,0 +1,172 @@
+*{
+    font-family: 'ambleregular', sans serif;
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body
+{
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 2px solid #e57373;
+
+}
+.container
+{
+    display: flex;
+}
+                                /*partie gauche*/
+.gauche
+{
+    width: 30%;
+    background-color: #e57373;
+}
+.photo
+{
+    border-radius: 80%;
+    padding: 25px 70px 25px 70px;
+}
+h3
+{
+    border: 0px solid;
+    background-color: black;
+    color: #e57373;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#contacts
+{
+    padding: 25px 25px;
+}
+
+p
+{
+    padding-bottom: 10px;
+}
+#apropos
+{
+    padding: 25px 25px;
+    padding-bottom: 120%;
+}
+                                    /*partie droite*/
+.droite
+{
+    width: 60%;
+    padding-left: 10%;
+    padding-top: 80px;
+}
+.nom
+{
+    padding-bottom: 10px; 
+}
+.prenom
+{
+    color: #e57373;
+}
+.souligne
+{
+    border-bottom: 2px solid #e57373;
+}
+.metier
+{
+    padding-bottom: 20%;
+}
+.session
+{
+    text-align: left;
+    border-bottom: 2px solid #e57373;
+    background: 0;
+    color: black;
+    padding-bottom: 10px;
+}
+.date-details
+{
+    display: flex;
+    align-items: baseline;
+}
+.date
+{
+    padding-top: 40px;
+    width: 30%;
+}
+.sous-date
+{
+    padding-top: 60%;
+} 
+.details
+{
+    padding-top: 30px;
+}
+.sous-details
+{
+    padding-top: 70px;
+}
+.date-exp
+{
+    padding-top: 45px;
+}
+.details-exp
+{
+    padding-top: 30px;
+}
+#exp
+{
+    padding-left: 70px;
+}
+.experiences
+{
+    padding-top: 90px;
+}
+#form
+{
+    padding-left: 70px;
+}
+
+.recommandations
+{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.reco
+{
+    padding-left: 150px;
+}
+h4
+{
+    line-height: 2em;
+}
+h5
+{
+    line-height: 1.5em;
+}
+.icons
+{
+    text-align: center;
+    padding: 15px;
+}
+.fa-3x
+{
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    opacity: 0.7;
+    padding-left: 10px;
+}
+.fa-1x
+{
+    color: #e57373;
+    padding-right: 25px;
+    padding-left: 5px;
+}
+.fa-xm
+{
+    padding-right: 10px;
+    color: #e57373;
+}
+.fa-xs
+{
+    padding-right: 10px;
+    color: #e57373;
+}
