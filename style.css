@@ -1,9 +1,10 @@
 *{
     font-family: 'ambleregular', sans serif;
     padding: 0px;
-    margin:0px;
+    margin: 0px;
     box-sizing: border-box;
 }
+
 body
 {
     margin-right: 10%;
@@ -11,20 +12,33 @@ body
     border: 2px solid #e57373;
 
 }
-.container
+.image
 {
-    display: flex;
-}
-                                /*partie gauche*/
-.gauche
-{
-    width: 30%;
-    background-color: #e57373;
+	width: 30%;
+	background-color: #e57373;
 }
 .photo
 {
     border-radius: 80%;
-    padding: 25px 70px 25px 70px;
+    padding: 25px 60px 25px 60px;
+}
+.presentation
+{
+ text-align: center;
+ padding-left: 10%;
+ padding-top: 10%;
+}
+.container
+{
+   display: flex;
+  
+   
+}
+.gauche
+{
+    width: 30%;
+    background-color: #e57373;
+    
 }
 h3
 {
@@ -49,13 +63,27 @@ p
     padding: 25px 25px;
     padding-bottom: 120%;
 }
-                                    /*partie droite*/
+.icons
+{
+    text-align: center;
+    padding: 15px;
+}
+.fa-3x
+{
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    opacity: 0.7;
+    padding-left: 10px;
+}
 .droite
 {
-    width: 60%;
+    width: 65%;
     padding-left: 10%;
     padding-top: 80px;
 }
+
 .nom
 {
     padding-bottom: 10px; 
@@ -90,85 +118,42 @@ p
     padding-top: 40px;
     width: 30%;
 }
-.sous-date
-{
-    padding-top: 60%;
-} 
 .details
 {
-    padding-top: 30px;
-}
-.sous-details
-{
-    padding-top: 30px;
-}
-.date-exp
-{
-    padding-top: 65px;
-}
-.details-exp
-{
-    padding-top: 30px;
-}
-#exp
-{
-    padding-left: 70px;
+	padding-left: 40px;
 }
 .experiences
 {
-    padding-top: 90px;
+    padding-top: 50px;
 }
-#form
-{
-    padding-left: 70px;
-}
-
 .recommandations
 {
     padding-top: 60px;
-    padding-bottom: 30px;
+  
 }
 .reco
 {
-    padding-left: 150px;
+	display: flex;
+	padding-top: 30px;
+
 }
-h4
+.openclassrooms
 {
-    line-height: 2em;
-}
-h5
-{
-    line-height: 1.5em;
-}
-.icons
-{
-    text-align: center;
-    padding: 15px;
-}
-.fa-3x
-{
-    border-radius: 100%;
-    margin-right: 10px;
-    border: 2px solid black;
-    padding: 10px;
-    opacity: 0.7;
-    padding-left: 10px;
+	padding-left: 30%;
 }
 .fa-1x
 {
     color: #e57373;
-    padding-right: 25px;
+    padding-right: 10px;
     padding-left: 5px;
-}
-.fa-xm
+ }
+ .fa-xm
 {
     padding-right: 10px;
     color: #e57373;
 }
 .fa-xs
 {
-    position: absolute;
-    left: 42%;
+    padding-right: 10px;
     color: #e57373;
-    
 }
